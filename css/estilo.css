@@ -1,12 +1,26 @@
+html{
+    font-size: 14px;
+}
+
 body{
     background-color:white;
 }
 
+header{
+    background-color: yellow;
+}
+
+.font-family{
+    font-family:'Times New Roman', Times, serif;
+}
+
 .center{
-    display: block;
+    opacity: 1;
+    display:block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
     width: 50%;
+    height: ;
   }
 
 nav{
@@ -20,6 +34,9 @@ nav ol{
 li{
     display: inline
 }
-body aside {
+body aside{
     float: left;
+}
+aside{
+padding: 2%, 2%, 2%, 2%;
 }
