@@ -1,27 +1,26 @@
-html{
-    font-size: 14px;
-}
-
 body{
     background-color:white;
 }
-
-header{
-    background-color: yellow;
+main>section{
+    position: relative;
+    float: right;
+    text-align: justify;
 }
-
 .font-family{
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman' Times serif;
+    font-size: 100%;
 }
-
+.figure{
+    display: block;
+}
 .center{
+    align-self: start;
     opacity: 1;
-    display:block;
-    margin-left: auto;
-    margin-right:auto;
-    width: 50%;
-    height: ;
-  }
+    padding: 1%;
+    margin: 4% 10% 4% 30%;
+    height: 20%;
+    width: 40%;
+}
 
 nav{
     text-align: center;
@@ -31,12 +30,27 @@ nav ol{
     display: inline-block;
     list-style-type: none;
 }
+
 li{
-    display: inline
-}
-body aside{
-    float: left;
+    display: inline;
 }
 aside{
-padding: 2%, 2%, 2%, 2%;
+    padding: 2% 2% 2% 2%;
+    float: left;
+}
+
+footer{
+    position:relative;
+    background-color: black;
+}
+
+footer>section>article{
+    text-align: center;
+}
+
+footer>section>article>p{
+    display: inline-block;
+    color: white;
+    padding: 7px 15px 7px 15px;
+    text-transform: uppercase;
 }
